@@ -166,7 +166,7 @@ lib = pj.Lib()
 
 try:
 	my_media_cfg = pj.MediaConfig()
-	my_media_cfg.clock_rate = 8000
+	#my_media_cfg.clock_rate = 8000
 	my_media_cfg.no_vad = True
 	my_media_cfg.ec_tail_len = 0
 
